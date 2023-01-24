@@ -1,0 +1,96 @@
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+/* 
+.flex-container {
+    width: auto;
+} */
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.btn {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 120px;
+    font-weight: bold;
+    height: 50px;
+    transition: 0.08s;
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px 5px;
+}
+/* 
+.spinner {
+    width: 120px;
+    height: 120px;
+    border-top: 16px solid #4285F4 linear-gradient(top, #012d56 29%, #012d56 29%, #8f0222 30%, #898900 31%);
+    border-right: 16px solid #0F9D58;
+    border-bottom: 16px solid #DB4437;
+    border-left: 16px solid #F4B400;
+    border-radius: 10%;
+    animation: spinner .1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button-container {
+    display: flex;
+    margin-top: 50px;
+    grid-column-gap: 10px;
+}
+
+.button,
+.button1 {
+    width: 100px;
+    height: 40px;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.block-spin {
+    animation: spinner 3s infinite;
+} */
